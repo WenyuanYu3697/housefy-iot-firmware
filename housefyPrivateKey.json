@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "housefybackend-environment",
+  "private_key_id": "4d3d5335fb596dc121ddd5700259fff7b7a4f417",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvwIBADANBgkqhkiG9w0BAQEFAASCBKkwggSlAgEAAoIBAQDRBF7lJB53Shrq\n/xmHwj0Mo3iY0/63MgLlQJw2x3tCsCs3fMUjz4oGc5ttM2nwXP4Ll1sZaSGl+nzh\nUVqLnnddhb/wCuX+SqIpehTblYrI4uzsn77xSBk4839JJOXc8CnI79NLgxPkUB2t\neKumGiPnLDzwKIRRJgellIzRFMPTKLqwWV1OkOpQLt7LjRIt83huCG4Itxp7KbOa\nWEQR6tkBt7H0FKTYz8ka5BF8mayT4Fn4WPUfxvFjnCw9yRCrOkkwbn2xFuooLcg6\n2Y6IAxehSw1K0aM0hNXsVK+7IVDTLV+QEw1KWIE3NxylOCJnVx/p0iNJNrVpwRLM\nhSN6Gny9AgMBAAECggEAIO0jVc1+zyPpYaOWDgDXRSprUQf0VD+YnSy0bxy1mifO\nZwtMsvt6rtF/ZpB229qKWqEZRMN+/XqcOZJrRRtNinoLZnEREiIHsaj9qCnClyrI\nT+5KUhAdiQ8yuf8KBuf+bRz6mCap94l3Y2BjCeOMTFp3rw1y6qWnBrqEBFvVDWpP\n/Q9yqp3lcFytoNrDie5Ekkee5R+8bcvOhQgUHD9GGdioraMPJw7XR7EV7Hx/ClVE\ne0q/4OMpsAme8HqQFpnf+cwo++4b93fUdqV1D4jzYAObHHs9wHIUGFS4AYeCqNiJ\nIbKyHH8XwrpmzfbA8j71g28sRKAkXAdjDeNH05NkMQKBgQD7T3c4bgxCjDHmgwda\noPxUlYzJwt85iv7GwNwtGrGFQHj9JpZ8EoTPNpAJQvLieEavaTcP0eMuhc949Ygv\nuSmyYSyjvN43Yd3kXqTBseWZb3C5iyCXK6mz9sbj28uFqc27uHGBntXR9pfjI5SR\nkbXwDUIEVtMcLf6qJWomJZyAqwKBgQDU6t2Wl7ORsLGJ8zZbr9WNkJFu/cTL32Y7\nFji2vzLrx5+l3imiBum3LQXVTbnxtlLHAwBKx+mmBeNXFgcjXx8BpDT8xCN5mqzU\nU2Fw9xgp9ir8wpvdbL2pMIyybMlwsd+9YIMzBHNnTBLv5qvTQ7qVqqe8ECKCBQPL\nm/BMA2CINwKBgQDjwhI3dyzvRuWWltucXFgzRFITLORn3zul33Xr/swyCstcCpPJ\noHLy5O1HJ4C+lOji4oU/diXhrO3qHwQs1DAg9Qai4nG2WaDi7o986ABAvYm47ok7\n2Bt1+UopibJ60fidj7x3D/+SyVzAQyfLgfYUt79D9XhgiqLJix0Xs3CR/wKBgQCb\nlezKqJwtcCKsHa+xHDI/Ok8r/gCaweqgbsKOt/Tr2nnM6SUfI1IR6rKChkPEX2jp\nyEWkX6VbDp5r+srIjC/KMUYPFvydVevJVAy2Ubm0oBAVl9fx3A5T3ghSMbCZy0El\nz6rP0wbJiwujhro0rR9hUs0zXc75l9SIKrFTunwFzQKBgQCUjYDbCfJ9MkHMgVft\nftLzuJHoa3xG6+utZ6aqX6BfzoGd8eQd36cpHdPmmJFVl0MAVydADV/6kfbPuI3J\nyYDOW5g6WiFmL0PNlPn4AogHtgw5yhdc0XabKjxBwm3wqbnfpYcZcaIHCVGHKz6V\nXbOzm/eoZmTQmhPKU0ROt2OX5Q==\n-----END PRIVATE KEY-----\n",
+  "client_email": "firebase-adminsdk-88cmw@housefybackend-environment.iam.gserviceaccount.com",
+  "client_id": "101080380475710390829",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-88cmw%40housefybackend-environment.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
