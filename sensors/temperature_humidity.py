@@ -13,5 +13,5 @@ class TemperatureHumiditySensor:
             humidity = self.sensor.humidity
             return temperature, humidity
         except RuntimeError as error:
-            time.sleep(2)
+            time.sleep(5)
             return None, None

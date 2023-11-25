@@ -52,7 +52,7 @@ class AirQualitySensor:
 
     def run(self, upload_func):
         while not self.data_ready():
-            time.sleep(0.5)  # 等待数据准备好
+            time.sleep(0.5)
         while True:
             co2, tvoc, aqi, status = self.read()
             if co2 is not None:
@@ -62,4 +62,4 @@ class AirQualitySensor:
                     'aqi': aqi,
                     'status': status
                 })
-            time.sleep(2)  # 每2秒读取一次数据
+            time.sleep(5)

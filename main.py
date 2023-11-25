@@ -9,28 +9,28 @@ import threading
 import time
 
 def main():
-    # 初始化 Firebase 服务
+    # Initialize Firebase Service
     firebase_service = FirebaseService('/home/pi/Desktop/CombinedScripts/housefyFirmware/housefyPrivateKey.json', 'https://housefybackend-environment-default-rtdb.firebaseio.com/')
 
-    # 初始化传感器
+    # Initialize sensors
     air_quality_sensor = AirQualitySensor()
     light_sensor = LightSensor()
     temp_hum_sensor = TemperatureHumiditySensor()
 
-    # 初始化 OLED 显示屏
+    # Initialize OLED display
     oled_display = OLEDDisplay()
 
-    # 设置 GPIO
+    # set up GPIO
     gpio = setup_gpio()
 
     def sensor_task():
         while True:
-            # 读取传感器数据
+            # read data from sensors
             co2, tvoc, aqi, aqi_status = air_quality_sensor.read()
             lux = light_sensor.read()
             temperature, humidity = temp_hum_sensor.read()
 
-            # 组织数据上传至 Firebase
+            # organize data, and then upload Firebase
             data = {
                 'co2': co2,
                 'tvoc': tvoc,
@@ -42,11 +42,9 @@ def main():
             }
             firebase_service.upload_to_firebase(data)
 
-            # 更新 OLED 显示屏
+            # update OLED display
             oled_display.update(aqi, aqi_status, lux, temperature, humidity)
-
-            # 每 2 秒钟执行一次
-            time.sleep(2)
+            time.sleep(5)
 
     # 启动传感器读取和数据上传的线程
     sensor_thread = threading.Thread(target=sensor_task)
