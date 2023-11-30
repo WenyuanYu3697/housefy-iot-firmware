@@ -9,5 +9,5 @@ class FirebaseService:
 
     def upload_to_firebase(self, data):
         timestamp = datetime.now().strftime('%Y-%m-%d_%H:%M:%S')
-        ref = db.reference(f'/sensor_data/{timestamp}')
+        ref = db.reference(f'/sensor/{timestamp}')
         ref.set(data)
